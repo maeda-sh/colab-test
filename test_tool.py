@@ -444,5 +444,7 @@ def merge_datas(input_dir_path, output_dir_path, name):
     result.to_csv(output_file + '.csv', index=False)
     print("=>Output to '{}.csv'".format(output_file))
 
+# コメントテスト
+
 if __name__ == '__main__':
     main()
